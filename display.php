@@ -10,7 +10,7 @@ echo "<br/>";
 
 echo "<font color='red' size='10000'>";
 echo "世界末日倒數計時:";
-include("ding.php");
+include("countdown.php");
 echo "</font>";
 
 
