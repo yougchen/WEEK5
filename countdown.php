@@ -1,6 +1,6 @@
 <?php
 
-$now=mktime(date("H")+8, date("i"), date("s"), date("m"), date("d"), date("Y"));//改為台灣時間
+$now=time();//台灣時間已改
 $nowdate=getdate($now);
 $end=mktime(0,0,0,1,1,2018);//設定世界末日最後時間
 $enddate=getdate($end);
