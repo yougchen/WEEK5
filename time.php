@@ -1,7 +1,7 @@
 <html>
 	
 <?php
-date_default_timezone_set("Asia/Taipei");
+date_default_timezone_set("Asia/Taipei");//改為台灣時間
 echo date("Y年");
 if(date("F")=="January"){
 	echo "一月";
